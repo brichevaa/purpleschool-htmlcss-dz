@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   background: linear-gradient(225deg, rgb(253, 197, 197) 25.447%, rgba(242, 152, 222, 0) 100%),
+      linear-gradient(225.29deg, rgb(255, 165, 165) 32.964%, rgba(255, 255, 255, 0) 82.031%),
+      rgb(243, 148, 148);
+}
+
+main {
+   background: rgb(255, 254, 254);
+   max-width: 582px;
+   text-align: center;
+   border-radius: 10px;
+}
+form {
+   width: 394px;
+   margin: 0px auto;
+}
+h1 {
+   color: #000;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 49px;
+}
+p {
+   display: inline-block;
+   color: rgb(102, 102, 102);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+}
+a {
+   color: rgb(8, 159, 224);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+}
+input {
+   border-radius: 5px;
+   background: rgb(245, 245, 245);
+   border: none;
+   width: 100%;
+}
+input::placeholder {
+   color: rgb(153, 153, 153);
+   font-style: italic;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+}
+button {
+   border-radius: 5px;
+   background: rgb(8, 159, 224);
+   border: none;
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+   text-align: center;
+}
+.conditions {
+   color: rgb(102, 102, 102);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+}
