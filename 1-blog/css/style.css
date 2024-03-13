@@ -43,14 +43,15 @@ body {
 }
 
 html {
-   /* font-size: 16px; */
+   font-size: 16px;
 }
 
 body {
    line-height: 1;
    color: #fff;
    font-family: 'Roboto', sans-serif;
-   background: linear-gradient(180deg, #374151 0%, #111827 100%);
+   /* background: linear-gradient(180deg, #374151 0%, #111827 100%); */
+   background: #121928;
 }
 
 .wrapper {
@@ -108,4 +109,92 @@ input::placeholder {
 .menu__item {
 }
 .menu__link {
+}
+.main__theory-color {
+}
+.theory-color {
+}
+.theory-color__container {
+}
+.theory-color__header {
+}
+.headers {
+}
+.headers__subtitle {
+   font-weight: 400;
+   font-size: 14px;
+   color: #fff;
+   opacity: 0.6;
+   text-align: center;
+   margin: 0px 0px 14px 0px;
+}
+.headers__title {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 158%;
+   text-align: center;
+   color: #fff;
+   margin: 0px 0px 30px 0px;
+}
+.main {
+}
+.main__theory-color {
+}
+.theory-color {
+}
+.theory-color__container {
+}
+.theory-color__header {
+}
+.headers {
+}
+.headers__subtitle {
+}
+.headers__title {
+}
+.theory-color__info {
+   margin: 0px 0px 28px 0px;
+}
+.info {
+   text-align: center;
+}
+.info__avatar img {
+   border-radius: 50%;
+}
+.info__name {
+}
+.info__text {
+}
+.theory-color__img {
+   width: 100%;
+   margin: 0px 0px 69px 0px;
+   border-radius: 5px;
+}
+.theory-color__text {
+}
+.text {
+}
+.text__main {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 160%;
+   color: #fff;
+}
+.text__main:not(:last-child) {
+   margin: 0px 0px 30px 0px;
+}
+.text__main_16px {
+   font-size: 16px;
+}
+.footer {
+   padding: 80px 0px 77px 0px;
+   text-align: center;
+}
+.footer__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 175%;
+   text-align: center;
+   color: #fff;
+   opacity: 0.6;
 }
