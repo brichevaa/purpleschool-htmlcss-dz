@@ -13,9 +13,7 @@
       <header class="header">
          <div class="header__container">
             <div class="header__logo">
-               <a href="#" class="header__link">
-                  <img src="img/icons/rectangle.svg" alt="Изображение логотипа" /> Мой блог
-               </a>
+               <a href="#" class="header__link">Мой блог</a>
             </div>
             <div class="header__menu menu">
                <nav class="menu__body">
@@ -27,12 +25,12 @@
                         <a href="#" class="menu__link">Frontend</a>
                      </li>
                      <li class="menu__item">
-                        <a href="#">Backend</a>
+                        <a href="#" class="menu__link">Backend</a>
                      </li>
                   </ul>
                </nav>
             </div>
-            <form action="#" method="get">
+            <form action="#" method="get" class="header__input">
                <input type="search" name="search" placeholder="Поиск" />
             </form>
          </div>
@@ -41,7 +39,7 @@
          <section class="main__theory-color theory-color">
             <div class="theory-color__container">
                <div class="theory-color__header headers">
-                  <p class="headers__subtitle">FRONTEND <span>12 мая 2024</span></p>
+                  <p class="headers__subtitle">FRONTEND &bull;<span> 12 мая 2024</span></p>
                   <h1 class="headers__title">
                      Теория цвета - Как цвет влияет на поведение потребителей
                   </h1>
@@ -50,8 +48,10 @@
                   <div class="info__avatar">
                      <img src="./img/avatar.jpeg" alt="аватарка" />
                   </div>
-                  <p class="info__name">Наталья Васильева</p>
-                  <p class="info__text">Разработчик</p>
+                  <div class="info__body">
+                     <p class="info__name">Наталья Васильева</p>
+                     <p class="info__text">Разработчик</p>
+                  </div>
                </div>
                <img
                   src="./img/main_bg.jpg"

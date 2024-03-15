@@ -39,7 +39,8 @@ img {
 
 html,
 body {
-   height: 100%;
+   /* height: 100%; */
+   height: max-content;
 }
 
 html {
@@ -50,8 +51,8 @@ body {
    line-height: 1;
    color: #fff;
    font-family: 'Roboto', sans-serif;
-   /* background: linear-gradient(180deg, #374151 0%, #111827 100%); */
-   background: #121928;
+   background: linear-gradient(180deg, #374151 0%, #111827 100%);
+   /* background: #121928; */
 }
 
 .wrapper {
@@ -64,7 +65,7 @@ body {
 /* ------------------------------ */
 
 [class*='__container'] {
-   max-width: 660px;
+   max-width: 1110px;
    margin: 0px auto;
    padding: 0px 15px;
 }
@@ -73,6 +74,7 @@ a {
    color: #fff;
    font-weight: 400;
    font-size: 16px;
+   transition: all 0.3s;
 }
 input {
    font-family: 'Roboto';
@@ -93,20 +95,53 @@ input::placeholder {
    margin: 0px 0px 69px 0px;
 }
 .header__container {
+   display: flex;
+   align-items: center;
+   min-height: 40px;
+   column-gap: 77px;
 }
 .header__logo {
 }
+
 .header__link {
 }
-.header__menu {
+.header__link:hover {
+   opacity: 0.6;
 }
+.header__link::before {
+   content: 'В';
+   display: inline-block;
+   text-align: center;
+   border-radius: 3px;
+   width: 35px;
+   height: 35px;
+   background-color: #4b5563;
+   margin: 0px 11px 0px 0px;
+   padding: 8px 0px 0px 0px;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.header__menu {
+   flex: 1 1 auto;
+}
+.header__input {
+   flex: 0 0 224px;
+   background: url('../img/icons/search.svg') 18px 14px no-repeat;
+}
+
 .menu {
+   display: flex;
+   justify-content: flex-start;
 }
 .menu__body {
 }
 .menu__list {
+   display: flex;
+   column-gap: 40px;
 }
 .menu__item {
+}
+.menu__link:hover {
+   opacity: 0.6;
 }
 .menu__link {
 }
@@ -156,19 +191,33 @@ input::placeholder {
    margin: 0px 0px 28px 0px;
 }
 .info {
-   text-align: center;
+   display: flex;
+   /* text-align: center; */
+   justify-content: center;
+   column-gap: 16px;
+}
+.info__body {
 }
 .info__avatar img {
    border-radius: 50%;
 }
 .info__name {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 175%;
+   color: #fff;
 }
 .info__text {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 200%;
+   color: #fff;
+   opacity: 0.6;
 }
 .theory-color__img {
    width: 100%;
    margin: 0px 0px 69px 0px;
-   border-radius: 5px;
+   border-radius: 15px;
 }
 .theory-color__text {
 }
