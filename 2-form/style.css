@@ -100,11 +100,6 @@ a {
    line-height: 25px;
 }
 input {
-   border-radius: 5px;
-   background: rgb(245, 245, 245);
-   border: none;
-   width: 100%;
-   padding: 9px 0px 9px 11px;
 }
 input::placeholder {
    color: rgb(153, 153, 153);
@@ -133,7 +128,12 @@ input::placeholder {
 .headers__link {
    margin: 0px 0px 0px 6px;
 }
-.form__items {
+.form__items input {
+   border-radius: 5px;
+   background: rgb(245, 245, 245);
+   border: none;
+   width: 100%;
+   padding: 9px 0px 9px 11px;
 }
 .form__item {
    margin: 0px 0px 22px 0px;
@@ -153,8 +153,16 @@ input::placeholder {
    line-height: 25px;
    text-align: center;
    padding: 9px 0px 9px 0px;
+   margin: 0px 0px 22px 0px;
 }
 .form__conditions {
+   display: flex;
+   align-items: center;
+   column-gap: 4px;
 }
-.conditions {
+
+.conditions__link {
+   font-weight: 400;
+   font-size: 14px;
+   color: #089fe0;
 }
