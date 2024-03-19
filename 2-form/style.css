@@ -117,16 +117,13 @@ input::placeholder {
    line-height: 19px;
 }
 
-.form__headers {
-}
 .headers {
    margin: 0px 0px 47px 0px;
 }
 .headers__title {
    margin: 0px 0px 5px 0px;
 }
-.headers__text {
-}
+
 .headers__link {
    margin: 0px 0px 0px 6px;
 }
