@@ -65,9 +65,8 @@ body {
 /* ------------------------------ */
 
 [class*='__container'] {
-   max-width: 1110px;
+   max-width: 1080px;
    margin: 0px auto;
-   padding: 0px 15px;
 }
 
 a {
@@ -84,6 +83,7 @@ input {
    padding: 10px 0px 11px 49px;
    border: none;
    color: #fff;
+   width: 100%;
 }
 input::placeholder {
    color: #fff;
@@ -127,6 +127,10 @@ input::placeholder {
    flex: 0 0 224px;
    background: url('../img/icons/search.svg') 18px 14px no-repeat;
 }
+.header__search::placeholder {
+   font-size: 16px;
+   color: #fff;
+}
 
 .menu {
    display: flex;
@@ -154,6 +158,9 @@ input::placeholder {
 .theory-color__header {
 }
 .headers {
+   max-width: 525px;
+
+   margin: 0px auto;
 }
 .headers__subtitle {
    font-weight: 400;
@@ -198,6 +205,7 @@ input::placeholder {
 }
 .info__body {
 }
+
 .info__avatar img {
    border-radius: 50%;
 }
@@ -215,13 +223,19 @@ input::placeholder {
    opacity: 0.6;
 }
 .theory-color__img {
-   width: 100%;
+   max-width: 896px;
+   margin: 0px auto;
+}
+.theory-color__img img {
    margin: 0px 0px 69px 0px;
    border-radius: 15px;
+   width: 100%;
 }
 .theory-color__text {
 }
 .text {
+   max-width: 708px;
+   margin: 0px auto;
 }
 .text__main {
    font-weight: 400;
@@ -234,6 +248,8 @@ input::placeholder {
 }
 .text__main_16px {
    font-size: 16px;
+   line-height: 187%;
+   color: #fff;
 }
 .footer {
    padding: 80px 0px 77px 0px;
