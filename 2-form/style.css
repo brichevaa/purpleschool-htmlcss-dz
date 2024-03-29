@@ -64,18 +64,50 @@ body {
 
 /* ------------------------------ */
 
+/* А ведь про этот padding я уже говорил)
+идеально будет сделать мейн по размеру layout, по центру экрана (условно там у нас контент \ страница \ информация и т.п., даже если это тот же блог) */
+
+/* 
 .main {
-   max-width: 582px;
+   max-width: 1440px;
    margin: 0px auto;
-   padding: 225px 0px 225px 0px;
 }
 .popup {
+   position: absolute;
+   top: 0;
+   left: 0;
    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+}
+.form {
+   max-width: 594px;
+   height: 583px;
    border-radius: 10px;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
    background: #fffefe;
+   padding: 72px 95px 91px 93px;
+} */
+
+.main {
+   max-width: 1440px;
+   margin: 0px auto;
 }
+
 .form {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   max-width: 582px;
+   height: 583px;
+   border-radius: 10px;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   background: #fffefe;
    padding: 72px 95px 91px 93px;
 }
 h1 {
@@ -138,12 +170,19 @@ input::placeholder {
 #surname {
    border-radius: 0px 5px 5px 0px;
 }
-.form__item {
+.form__items {
    margin: 0px 0px 22px 0px;
+   gap: 22px;
+   display: flex;
+   flex-direction: column;
 }
+
 .form__item_name {
    display: flex;
    column-gap: 1px;
+}
+input[type='checkbox'] {
+   width: unset;
 }
 .form__button {
    font-family: 'Open Sans', sans-serif;

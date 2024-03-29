@@ -8,55 +8,42 @@
    </head>
    <body>
       <main class="main">
-         <div class="popup">
-            <form action="#" class="form">
-               <div class="form__headers headers">
-                  <h1 class="headers__title">Регистрация</h1>
-                  <p class="headers__text">
-                     Уже есть аккаунт?<a href="#" class="headers__link">Войти</a>
-                  </p>
-               </div>
-               <div class="form__items">
-                  <div class="form__item">
-                     <input
-                        type="text"
-                        placeholder="Название компании"
-                        name="company"
-                        id="company"
-                        required
-                     />
-                  </div>
-                  <div class="form__item form__item_name">
-                     <input type="text" placeholder="Имя" name="name" required id="name" />
-                     <input
-                        type="text"
-                        placeholder="Фамилия"
-                        name="surname"
-                        required
-                        id="surname"
-                     />
-                  </div>
-                  <div class="form__item">
-                     <input type="email" name="email" id="email" placeholder="E-mail" required />
-                  </div>
-               </div>
-               <button type="submit" class="form__button">
-                  Зарегистрироваться<img src="img/icons/arrow.svg" alt="arrow" />
-               </button>
-               <div class="form__conditions">
+         <form action="#" class="form">
+            <div class="form__headers headers">
+               <h1 class="headers__title">Регистрация</h1>
+               <p class="headers__text">
+                  Уже есть аккаунт?<a href="#" class="headers__link">Войти</a>
+               </p>
+            </div>
+            <div class="form__items">
+               <div class="form__item">
                   <input
-                     type="checkbox"
-                     name="conditions"
-                     id="conditions"
-                     class="conditions__input"
+                     type="text"
+                     placeholder="Название компании"
+                     name="company"
+                     id="company"
+                     required
                   />
-                  <label class="conditions" for="conditions"
-                     >Я прочитал и принимаю
-                     <a href="#" class="conditions__link">Условия использования</a></label
-                  >
                </div>
-            </form>
-         </div>
+               <div class="form__item form__item_name">
+                  <input type="text" placeholder="Имя" name="name" required id="name" />
+                  <input type="text" placeholder="Фамилия" name="surname" required id="surname" />
+               </div>
+               <div class="form__item">
+                  <input type="email" name="email" id="email" placeholder="E-mail" required />
+               </div>
+            </div>
+            <button type="submit" class="form__button">
+               Зарегистрироваться<img src="img/icons/arrow.svg" alt="arrow" />
+            </button>
+            <div class="form__conditions">
+               <input type="checkbox" name="conditions" id="conditions" class="conditions__input" />
+               <label class="conditions" for="conditions"
+                  >Я прочитал и принимаю
+                  <a href="#" class="conditions__link">Условия использования</a></label
+               >
+            </div>
+         </form>
       </main>
    </body>
 </html>
