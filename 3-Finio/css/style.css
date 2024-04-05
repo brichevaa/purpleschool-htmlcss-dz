@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+html {
+   /* font-size: 16px; */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   text-rendering: optimizeLegibility;
+}
+
+body {
+   line-height: 1;
+   color: var(--color-text);
+   font-family: 'Inter', sans-serif;
+   background: var(--color-bg);
+   font-style: normal;
+   font-weight: 400;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+:root {
+   --color-bg: #fafafa;
+   --color-footer: #1a1d25;
+   --color-text: #000;
+   --color-text-light: rgba(78, 93, 124, 0.5);
+   --layout-width: 1392px;
+   --border-8: 8px;
+   --color-primary: #357efe;
+   --color-benefit-percent: #1abc9c;
+   --color-benefit-currency: #ffc736;
+}
+
+/* ------------------------------ */
+
+[class*='__container'] {
+   max-width: var(--layout-width);
+   margin: 0px auto;
+   padding: 80px 118px;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 120%;
+   text-align: center;
+}
+
+.rates {
+}
+.rates__container {
+}
+.rates__title {
+   margin: 0px 0px 24px 0px;
+}
+
+.rates__text {
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 140%;
+   text-align: center;
+   color: var(--color-text-light);
+   margin: 0px 0px 40px 0px;
+}
+.cards {
+}
+.card {
+}
+.card__title {
+}
+.card__text {
+}
+.card__body {
+}
+.body-card {
+}
+.body-card__title {
+}
+.body-card__price {
+}
+.card__button {
+}
+.button {
+}
