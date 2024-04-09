@@ -68,7 +68,8 @@ body {
 :root {
    --color-bg: #fafafa;
    --color-footer: #1a1d25;
-   --color-text: #000;
+   --color-text-black: #000;
+   --color-text-white: #fafafa;
    --color-text-light: rgba(78, 93, 124, 0.5);
    --color-text-cards: #4e5d7c;
    --color-divider: rgba(78, 93, 124, 0.08);
@@ -83,8 +84,9 @@ body {
 
 [class*='__container'] {
    max-width: var(--layout-width);
+   box-sizing: content-box;
+   padding: 0px 24px;
    margin: 0px auto;
-   padding: 80px 118px;
 }
 
 .title {
@@ -97,6 +99,7 @@ body {
    background-color: var(--color-divider);
    width: 100%;
    height: 1px;
+   margin: 0px 0px 16px 0px;
 }
 
 .rates {
@@ -126,39 +129,72 @@ body {
    border-radius: var(--border-8);
    padding: 93px 40px 48px 40px;
 }
+.card_active {
+   background-color: var(--color-primary);
+}
 .card__title {
    font-weight: 800;
    font-size: 32px;
    line-height: 120%;
    color: var(--color-text);
+   margin: 0px 0px 16px 0px;
+}
+.card__title_active {
+   color: var(--color-bg);
 }
 .card__text {
    font-weight: 500;
    font-size: 17px;
    line-height: 140%;
    color: var(--color-text-light);
+   margin: 0px 0px 50px 0px;
+}
+.card__text_active {
+   color: rgba(255, 255, 255, 0.6);
 }
 .card__body {
+   margin: 0px 0px 16px 0px;
 }
 .body-card {
    display: grid;
-   grid-template-columns: repeat(2, auto);
+   grid-template-columns: 1fr 110px;
    grid-template-rows: repeat(2, auto);
    font-weight: 500;
    font-size: 17px;
    line-height: 120%;
    color: var(--color-text-cards);
 }
+.body-card_active {
+   color: var(--color-bg);
+}
 
+.body-card__currency {
+   background-color: var(--color-benefit-currency);
+   padding: 8px 16px;
+   margin: 0px 0px 0px -16px;
+   color: var(--color-bg);
+   border-radius: var(--border-8);
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 120%;
+}
 .card__button {
    background-color: var(--color-primary);
    color: var(--color-bg);
+   margin: 24px 0px 0px 0px;
 }
 .button {
    font-family: 'Inter', sans-serif;
-   padding: 12px 64px;
+   padding: 12px 0px;
    border-radius: 47px;
    font-weight: 800;
    font-size: 17px;
    line-height: 140%;
+   text-align: center;
+   width: 100%;
+}
+
+.button_active {
+   color: var(--color-primary);
+   background-color: var(--color-bg);
 }

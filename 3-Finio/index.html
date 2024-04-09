@@ -3,13 +3,43 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/global.css" />
+      <link rel="stylesheet" href="css/components.css" />
+      <link rel="stylesheet" href="css/header.css" />
+      <link rel="stylesheet" href="css/footer.css" />
       <title>Finio</title>
    </head>
    <body>
-      <header></header>
+      <header class="header">
+         <div class="header__container header__container_wide">
+            <div class="header__column">
+               <a href="#" class="header__logo">finio</a>
+            </div>
+            <div class="header__column header__column_wide">
+               <div class="header__menu menu">
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Возможности</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Тарифы</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Поддержка клиентов</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+
+            <div class="header__column header__column_auth">
+               <button class="button button__auth">Личный кабинет</button>
+            </div>
+            <button type="button" class="menu__icon icon-menu">
+               <img src="img/icons/header/menu-burger.svg" alt="меню бургер" />
+            </button>
+         </div>
+      </header>
       <main>
-         <section class="rates">
+         <!-- <section class="rates">
             <div class="rates__container">
                <h2 class="rates__title title">Тарифы</h2>
                <p class="rates__text">
@@ -49,7 +79,9 @@
                      <div class="divider"></div>
                      <div class="card__body body-card">
                         <div class="body-card__title">Ваша выгода</div>
-                        <div class="body-card__price">3 000 ₽</div>
+                        <div class="body-card__price">
+                           <span class="body-card__currency">3 000 ₽</span>
+                        </div>
                      </div>
                      <div class="divider"></div>
 
@@ -60,31 +92,33 @@
                      <button class="card__button button">Бесплатно 14 дней</button>
                   </div>
                   <div class="card card_active">
-                     <h3 class="card__title">12 месяцев</h3>
-                     <p class="card__text">
+                     <h3 class="card__title card__title_active">12 месяцев</h3>
+                     <p class="card__text card__text_active">
                         Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет
                         сэкономить
                      </p>
-                     <div class="card__body body-card">
+                     <div class="card__body body-card body-card_active">
                         <div class="body-card__title">Общая стоимость</div>
                         <div class="body-card__price">11 880 ₽</div>
                      </div>
                      <div class="divider"></div>
-                     <div class="card__body body-card">
+                     <div class="card__body body-card body-card_active">
                         <div class="body-card__title">Ваша выгода</div>
-                        <div class="body-card__price">12 000 ₽</div>
+                        <div class="body-card__price">
+                           <span class="body-card__currency">12 000 ₽</span>
+                        </div>
                      </div>
                      <div class="divider"></div>
 
-                     <div class="card__body body-card">
+                     <div class="card__body body-card body-card_active">
                         <div class="body-card__title">Стоимость месяца</div>
                         <div class="body-card__price">990 ₽/мес</div>
                      </div>
-                     <button class="card__button button">Бесплатно 14 дней</button>
+                     <button class="card__button button button_active">Бесплатно 14 дней</button>
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
       </main>
       <footer></footer>
    </body>
