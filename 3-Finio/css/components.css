@@ -463,3 +463,31 @@
 .body-reviews__image img {
    border-radius: 0 8px 8px 0;
 }
+
+/* footer */
+.footer {
+}
+.footer__container {
+}
+.footer__up {
+   display: flex;
+}
+.footer__logo {
+}
+.footer__description {
+}
+.footer__menu {
+   display: flex;
+}
+.menu-small {
+}
+.menu-small__list {
+}
+.menu-small__item {
+}
+.menu-small__link {
+}
+.footer__down {
+}
+.footer__copyright {
+}
