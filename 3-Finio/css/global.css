@@ -79,6 +79,7 @@ body {
    --color-primary: #357efe;
    --color-benefit-percent: #1abc9c;
    --color-benefit-currency: #ffc736;
+   --color-text-orange: #ff6536;
 }
 
 /* ------------------------------ */
@@ -115,5 +116,14 @@ body {
    font-size: 17px;
    line-height: 140%;
    text-align: center;
+   background-color: var(--color-text-white);
    /* width: 100%; */
+}
+.white-strip {
+   position: absolute;
+   background-color: var(--color-text-white);
+   height: 320px;
+   width: 130%;
+   transform: rotate(-7deg) translateY(-230px);
+   z-index: 2;
 }
