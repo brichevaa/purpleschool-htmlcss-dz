@@ -7,6 +7,7 @@
    gap: 10px;
    padding-top: 40px;
    padding-bottom: 98px;
+   padding: 40px 15px 90px 15px;
 }
 .header__column {
    flex: 0 0 210px;
