@@ -91,6 +91,9 @@ body {
    padding: 0px 24px;
    margin: 0px auto;
 }
+[class*='__container_small'] {
+   max-width: 1156px;
+}
 
 .title {
    font-weight: 600;

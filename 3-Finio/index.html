@@ -151,8 +151,9 @@
                   <button class="button button__synch">Попробовать 14 дней бесплатно</button>
                </div>
                <div class="synchronization__image image-synch">
-                  <div class="image-synch__left"><img class="image-synch__image" src="img/synchronization/right.jpg" alt="отчет превью таблица" /></div>
-                  <div class="image-synch__right"><img src="img/synchronization/left.jpg" alt="отчет превью графики" /></div>
+                  <img class="image-synch__arrows" src="img/synchronization/arrows.svg" alt="стрелки">
+                  <div class="image-synch__left"><img class="image-synch__image" src="img/synchronization/main.png" alt="отчет превью" /></div>
+                  <div class="image-synch__right"><img class="image-synch__image" src="img/synchronization/01.jpg" alt="отчет превью" /></div>
                </div>
                <div class="synchronization__table table-synch">
                   <div class="table-synch__left">
@@ -167,10 +168,10 @@
                   <div class="table-synch__right">
                      <div class="table-synch__title">FINIO</div>
                      <ul class="table-synch__body">
-                        <li class="table-synch__list">Внесение данных за пару кликов</li>
-                        <li class="table-synch__list">Автоматическое получение данных по API</li>
-                        <li class="table-synch__list">Удобная мобильная версия</li>
-                        <li class="table-synch__list">Наглядные отчеты, графики и таблицы</li>
+                        <li class="table-synch__list table-synch__list_arrow">Внесение данных за пару кликов</li>
+                        <li class="table-synch__list table-synch__list_arrow">Автоматическое получение данных по API</li>
+                        <li class="table-synch__list table-synch__list_arrow">Удобная мобильная версия</li>
+                        <li class="table-synch__list table-synch__list_arrow">Наглядные отчеты, графики и таблицы</li>
                      </ul>
                   </div>
                </div>
@@ -266,7 +267,7 @@
             </div>
          </section>
          <section class="rates">
-            <div class="rates__container">
+            <div class="rates__container rates__container_small">
                <div class="rates__header">
                   <h2 class="rates__title title">Тарифы</h2>
                   <p class="rates__text text">
@@ -296,6 +297,9 @@
                      <button class="card__button button">Бесплатно 14 дней</button>
                   </div>
                   <div class="card">
+                     <div class="card__benefit">
+                        <span>Выгода <b>25</b>%</span>
+                     </div>
                      <h3 class="card__title">6 месяцев</h3>
                      <p class="card__text">
                         Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
@@ -320,6 +324,9 @@
                      <button class="card__button button">Бесплатно 14 дней</button>
                   </div>
                   <div class="card card_active">
+                     <div class="card__benefit">
+                        <span>Выгода <b>50</b>%</span>
+                     </div>
                      <h3 class="card__title card__title_active">12 месяцев</h3>
                      <p class="card__text card__text_active">
                         Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет
@@ -348,15 +355,19 @@
             </div>
          </section>
          <section class="reviews">
-            <div class="reviews__container">
+            <div class="reviews__container reviews__container_small">
                <div class="reviews__title title">Отзывы</div>
                <div class="reviews__body body-reviews">
-                  <div class="body-reviews__content">
+                  <div class="arrow-left">
                      <img
-                        src="img/reviews/arrow-left.svg"
-                        alt="стрелочка налево"
-                        class="arrow-left"
-                     />
+                    src="img/reviews/arrow-left.svg"
+                    alt="стрелочка налево"
+                    
+                 />
+                 </div>
+                  <div class="body-reviews__content">
+                    
+                    
                      <div class="body-reviews__text">
                         <div class="body-reviews__title">
                            Впервые за долгое время увидела свои расходы и доходы как на ладони.
@@ -364,16 +375,20 @@
                         <p class="body-reviews__name">Дана Валеева</p>
                         <p class="body-reviews__desc">Продавец Wildberries</p>
                      </div>
+                     <img src="img/reviews/points.svg" alt="точки" class="reviews__points">
                   </div>
                   <div class="body-reviews__image">
                      <img src="img/reviews/01.jpg" alt="фото девушки" />
                   </div>
-                  <img
-                     src="img/reviews/arrow-right.svg"
-                     alt="стрелочка направо"
-                     class="arrow-right"
-                  />
+                 <div class="arrow-right">
+                     <img
+                        src="img/reviews/arrow-right.svg"
+                        alt="стрелочка направо"
+                       
+                     />
+                 </div>
                </div>
+              
             </div>
          </section>
       </main>
