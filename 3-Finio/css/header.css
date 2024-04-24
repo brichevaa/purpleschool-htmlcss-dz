@@ -104,6 +104,9 @@
 }
 
 @media (max-width: 375px) {
+   .header__container {
+      padding: 33px 24px 57px 24px;
+   }
    .header__column {
       flex-basis: 24px;
    }
