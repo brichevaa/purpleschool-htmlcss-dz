@@ -97,9 +97,93 @@ body {
 
 .title {
    font-weight: 600;
-   font-size: 48px;
    line-height: 120%;
 }
+.title_fz48 {
+   font-size: 48px;
+}
+.title_fz40 {
+   font-size: 40px;
+}
+.title_fz36 {
+   font-size: 36px;
+}
+.title_fz32 {
+   font-size: 32px;
+}
+.title_fz24 {
+   font-size: 24px;
+}
+
+@media (max-width: 991px) {
+   .title_fz48 {
+      font-size: 44px;
+   }
+   .title_fz40 {
+      font-size: 38px;
+   }
+   .title_fz36 {
+      font-size: 34px;
+   }
+   .title_fz32 {
+      font-size: 30px;
+   }
+   .title_fz24 {
+      font-size: 22px;
+   }
+}
+@media (max-width: 767px) {
+   .title_fz48 {
+      font-size: 42px;
+   }
+   .title_fz40 {
+      font-size: 36px;
+   }
+   .title_fz36 {
+      font-size: 32px;
+   }
+   .title_fz32 {
+      font-size: 28px;
+   }
+   .title_fz24 {
+      font-size: 20px;
+   }
+}
+@media (max-width: 576px) {
+   .title_fz48 {
+      font-size: 40px;
+   }
+   .title_fz40 {
+      font-size: 34px;
+   }
+   .title_fz36 {
+      font-size: 28px;
+   }
+   .title_fz32 {
+      font-size: 26px;
+   }
+   .title_fz24 {
+      font-size: 18px;
+   }
+}
+@media (max-width: 375px) {
+   .title_fz48 {
+      font-size: 36px;
+   }
+   .title_fz40 {
+      font-size: 32px;
+   }
+   .title_fz36 {
+      font-size: 24px;
+   }
+   .title_fz32 {
+      font-size: 24px;
+   }
+   .title_fz24 {
+      font-size: 18px;
+   }
+}
+
 .text {
    font-weight: 500;
    font-size: 17px;
